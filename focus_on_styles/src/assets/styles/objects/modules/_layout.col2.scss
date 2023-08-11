@@ -1,0 +1,26 @@
+%o-layout{
+    display: flex ;
+}
+
+.o-layout--2col{
+@extend %o-layout;
+justify-content: space-between;
+
+    .o-layout__col{
+        min-width: 50%;
+    }
+}
+
+.o-layout--2col--irregular{
+    @extend %o-layout;
+
+    .o-layout__col{
+        &:first-child{
+            min-width: 30%;
+        }
+
+        &:last-child{
+            min-width: 70%;
+        }
+    }   
+}

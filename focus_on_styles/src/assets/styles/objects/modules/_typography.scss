@@ -1,0 +1,15 @@
+/*
+  Component => typography
+*/
+
+$font-ratio: 1.6;
+
+// paragraph sans
+.o-paragraph{
+    @include typography-generator($face-face-1, 800, 25px, 20px, 25px, null, null, $font-ratio);
+  }
+
+// title sans
+.o-title{
+    @include typography-generator($face-face-1, 800, 25px, 20px, 25px, null, null, 1.6);
+  }

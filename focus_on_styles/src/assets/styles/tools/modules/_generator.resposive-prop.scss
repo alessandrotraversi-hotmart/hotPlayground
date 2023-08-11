@@ -1,0 +1,21 @@
+@mixin responsive-prop($prop-name, $v1, $v2, $v3, $v4, $v5, $v6, $v7, $v8, $v9, $v10) {
+    $prop-name: $v1;
+
+    $prop-name: $v2;
+
+    $prop-name: $v3;
+
+    $prop-name: $v4;
+
+    $prop-name: $v5;
+
+    $prop-name: $v6;
+
+    $prop-name: $v7;
+
+    $prop-name: $v8;
+
+    $prop-name: $v9;
+
+    $prop-name: $v10;
+}
